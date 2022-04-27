@@ -6,3 +6,19 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+class computerDesk {
+  constructor(
+    desk,
+    deskColor,
+    objectsOnDesk,
+    isItClean,
+    doYouLikeIt
+  ) {
+    this.desk = desk;
+    this.deskColor = deskColor;
+    this.objectsOnDesk = objectsOnDesk;
+    this.isItClean = isItClean;
+    this.doYouLikeIt = doYouLikeIt;
+  };
+  
+}
